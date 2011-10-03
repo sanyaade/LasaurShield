@@ -1,0 +1,25 @@
+[Eagle]
+Version="05 11 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE/lbr/SparkFun-mine.lbr"
+UsedLibrary="/Applications/EAGLE/lbr/SparkFun.lbr"
+UsedLibrary="/Applications/EAGLE/lbr/adafruit-mine.lbr"
+UsedLibrary="/Applications/EAGLE/lbr/adafruit.lbr"
+UsedLibrary="/Applications/EAGLE/lbr/mbed-microcontroller.lbr"
+UsedLibrary="/Applications/EAGLE/lbr/mbed-opto.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="59 99 1086 718"
+State=2
+Number=0
+
+[Desktop]
+Screen="1280 800"
+Window="Win_1"
