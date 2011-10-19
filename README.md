@@ -1,5 +1,5 @@
 
-The LasaurShield is a custom PCB for the [Lasersaur project](http://lasersaur.com). It's an [Arduino](http://arduino.cc/) [shield](http://arduino.cc/en/Main/ArduinoShields) that connects laser, stepper, stepper driver, stepper power, limit switches, door sensor, water chiller sensor, emergency stop sensor, and Arduino. Starting with v11.10 the core safety function are also hardwired on the board.
+The LasaurShield is a custom PCB for the [Lasersaur project](http://lasersaur.com). It's an [Arduino](http://arduino.cc/) [shield](http://arduino.cc/en/Main/ArduinoShields) that connects laser, stepper, stepper driver, stepper power, limit switches, door sensor, water chiller sensor, emergency stop sensor, and Arduino. Starting with v11.10 the core safety functions are also hardwired on the board.
 
 The LasaurShield is designed around the SparkFun Eagle Library, their design and CAM job rules. Check out the [SparkFun Tutorial](http://www.sparkfun.com/tutorials/108) if you are new to this. If you are interesting doing your own production run check out [this tutorial](http://www.sparkfun.com/tutorials/109).
 
