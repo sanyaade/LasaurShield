@@ -37,7 +37,7 @@ When laying out the board
 - run autoroute, 
   - The power of the autorouter is that it can be used incrementally. Some wires can be drawn manually and the autorouter can finish the rest. 
   - Another great approach is to draw some wires roughly (e.g. on one side of the board) then autoroute, rip the manual wires and autoroute again. This way the autorouter follows the general idea but draws the wires nicely.
-- if the autorouter should use different trace width this can be accomplished by defining net classes width different widths, Edit->Net classes
+- if the autorouter should use different trace widths this can be accomplished by defining net classes width different widths, Edit->Net classes
   - air wires of the ratsnest (it actually applies to the entire signal) can then be assigned to the various net classes
 
 When creating the CAM Job (gerber files)
@@ -55,7 +55,7 @@ When creating the CAM Job (gerber files)
   - Bottom Silkscreen (GBO)
   - Drill File (TXT)
   - Drill Summary (dri)
-- before sending these to a manufacturing house check them with [Viewplot](http://www.viewplot.com/) or by uploading a zip to [circuitpeople.com/](http://circuitpeople.com/).
+- before sending these to a manufacturing house check them with [Viewplot](http://www.viewplot.com/) or by uploading a zip to [circuitpeople.com](http://circuitpeople.com/).
 
 
 
