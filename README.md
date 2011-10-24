@@ -59,3 +59,18 @@ When creating the CAM Job (gerber files)
 
 
 
+Parts List for v11.11 Upgrade
+==============================
+
+2   resistor 10 KOhm    271-10K-RC    (making is a total of 7x)
+1   e-stop button 24mm    642-A01ES
+1   e-stop SPST block    642-A0150B
+2   NAND Gates IC    863-MC74AC20NG
+1   DIN rail 1m    651-5602100
+1   relay 277VAC@25A for DIN rail    528-725BXXSC3ML-24D
+8   terminal block for DIN rail    651-3004362
+1   terminal block side cover    651-3003020
+5   terminal block bridge    651-0201155
+1   power supply 24V for DIN rail    845-PS-6024    (replacement)
+
+
