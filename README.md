@@ -25,7 +25,7 @@ When designing the schematic
 ------------------------------
 - import parts libraries, Library->Use
 - some parts like the NAND gates require you to press the "Invoke" button and place power and ground. Don't ask me why.
-- Once the schematic is done run the electrical checks Tools->Erc
+- Once the schematic is done, run the electrical checks Tools->Erc
 
 When laying out the board
 --------------------------
@@ -37,7 +37,7 @@ When laying out the board
 - run autoroute, 
   - The power of the autorouter is that it can be used incrementally. Some wires can be drawn manually and the autorouter can finish the rest. 
   - Another great approach is to draw some wires roughly (e.g. on one side of the board) then autoroute, rip the manual wires and autoroute again. This way the autorouter follows the general idea but draws the wires nicely.
-- if the autorouter should use different trace widths this can be accomplished by defining net classes width different widths, Edit->Net classes
+- if the autorouter should use different trace widths this can be accomplished by defining net classes with different widths, Edit->Net classes
   - air wires of the ratsnest (it actually applies to the entire signal) can then be assigned to the various net classes
 
 When creating the CAM Job (gerber files)
@@ -62,7 +62,7 @@ When creating the CAM Job (gerber files)
 Parts List for v11.11 Upgrade
 ==============================
 
-2   resistor 10 KOhm    271-10K-RC    (making is a total of 7x)
+2   resistor 10 KOhm    271-10K-RC    (making it a total of 7x)
 1   e-stop button 24mm    642-A01ES
 1   e-stop SPST block    642-A0150B
 2   NAND Gates IC    863-MC74AC20NG
@@ -72,5 +72,22 @@ Parts List for v11.11 Upgrade
 1   terminal block side cover    651-3003020
 5   terminal block bridge    651-0201155
 1   power supply 24V for DIN rail    845-PS-6024    (replacement)
+1   power entry connector, C-20   562-744W-00/04 
+1   power entry connector, C-14   161-R30148-E
+
+
+Test for v11.11
+===============
+
+- chiller hard logic ... ok
+- limit switches hard logic ... ok
+
+- limit switch input
+- chiller input
+- overwrite
+- rel input
+
+
+git push -u origin master
 
 
